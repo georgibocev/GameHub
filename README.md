@@ -366,3 +366,23 @@ Player with ID: 1 wins!
 - **src/**: Contains the main source files.
 - **CMakeLists.txt**: CMake configuration file for the project.
 
+## Parent CMake Configuration
+
+The parent CMakeLists.txt file includes configuration settings and options for building all projects within the GameHub repository.
+
+### Features
+
+- **Centralized Configuration**: Provides a centralized CMake configuration for all projects.
+- **Project Organization**: Defines the organization of projects within the repository.
+- **Common Dependencies**: Manages common dependencies and settings for all projects.
+
+### How to Use
+
+To build all projects, follow these steps:
+
+1. Navigate to the root directory of the GameHub repository.
+2. Create a build directory: `mkdir build && cd build`.
+3. Run CMake: `cmake ..`.
+4. Build all projects: `cmake --build .`.
+
+This will build all projects in the repository, and you can then run each project individually.
