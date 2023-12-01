@@ -73,10 +73,10 @@ python RGBTask.py matrix.txt
 Replace 'matrix.txt' with the path to your matrix file.
 
 ### Algorithm Details
-The algorithm uses a Breadth-First Search (BFS) approach to find the longest contiguous sequence of the same color.
+The RGBTask project employs the Breadth-First Search (BFS) algorithm to efficiently traverse the color matrix and identify the longest sequence of adjacent identical colors. This approach ensures a systematic exploration of the matrix, providing a robust solution for color sequence detection.
 
 ### C API
-The C API provides functions for finding the longest color sequence. See longest_sequence_lib.h for details.
+- longest_sequence_lib.c / longest_sequence_lib.h: Implements the color sequence algorithm and provides a C API.
 
 ### Python Integration
 The Python script (RGBTask.py) demonstrates how to integrate the C API for seamless color sequence processing.
