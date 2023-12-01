@@ -1,16 +1,33 @@
 # GameHub
 Explore the GameHub repository, a collection of diverse projects ranging from strategic classics like StarCraft and WarCraft to the intense Counterstrike, all the way to the vivid world of RGBTask. 
 
-# CounterStrike Simulator
+## 1. Starcraft:
+
+Simulates a simplified version of the Starcraft game where Terran and Protoss fleets engage in battle.
+Implements the Factory Design Pattern for creating different types of airships.
+Warcraft:
+
+Implements a simulation where heroes with different abilities and spells engage in various actions.
+Demonstrates object-oriented programming concepts and usage of polymorphism.
+CounterStrike:
+
+Simulates a simplified version of the Counter-Strike game where two players engage in a pistol round.
+Features a turn-based gameplay system with dynamic output.
+RGBTask:
+
+Implements an algorithm to find the longest sequence of adjacent identical colors in a matrix.
+Provides both a C API and a Python version that uses the API.
+
+# 1. CounterStrike Simulator
 
 This program simulates a simplified version of the Counter-Strike game where two players engage in a pistol round. Each player has a choice between two types of pistols: Glock and Desert Eagle. The players take turns shooting at each other until one of them runs out of health and armor.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [How to Compile](#how-to-compile)
-- [How to Run](#how-to-run)
+- [CS-Features](#CS-features)
+- [CS-Prerequisites](#prerequisites)
+- [CS-How to Compile](#how-to-compile)
+- [CS-How to Run](#how-to-run)
 - [Example Input](#example-input)
 - [Example Output](#example-output)
 - [Project Structure](#project-structure)
@@ -62,3 +79,55 @@ Player 1 shoots Player 0. Player 0's health: 75, armor: 25.```
 - Pistols/: Contains the pistol classes and the factory for creating pistols.
 - src/: Contains the main program and player class.
 - CMakeLists.txt: CMake configuration file for the project.
+
+Starcraft Battle Simulator
+Welcome to the Starcraft Battle Simulator, a console-based game where the Terran and Protoss fleets engage in epic space battles!
+
+Table of Contents
+Features
+Prerequisites
+How to Compile
+How to Run
+Example Input
+Example Output
+Project Structure
+Design Patterns Used
+License
+Features
+Airship Types: BattleCruser, Carrier, Viking, Phoenix.
+Turn-Based Gameplay: Watch the fleets clash in a turn-based battle.
+Dynamic Output: Real-time feedback on each airship's actions.
+Fleet Composition: Customize the composition of your Terran and Protoss fleets.
+Prerequisites
+CMake (version 3.5.1 or higher)
+C++ Compiler (with C++11 support)
+How to Compile
+Navigate to the root directory of the project.
+Create a build directory: mkdir build && cd build.
+Run CMake: cmake ...
+Build the executable: cmake --build ..
+How to Run
+After compiling the program, run the executable from the build directory:
+
+bash
+Copy code
+./Starcraft
+Follow the on-screen instructions to input fleet compositions and watch the battle unfold.
+
+Example Input
+plaintext
+Copy code
+Enter Terran Fleet Composition: BCV
+Enter Protoss Fleet Composition: PPH
+Example Output
+plaintext
+Copy code
+Terran BattleCruser attacks Protoss Phoenix.
+Protoss Phoenix takes 20 damage. Shield: 70, Health: 70.
+
+...
+
+Project Structure
+src/: Contains the main program and individual classes for airships.
+CMakeLists.txt: CMake configuration file for the project.
+
