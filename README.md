@@ -14,7 +14,6 @@ This program simulates a simplified version of the Counter-Strike game where two
 - [Example Input](#example-input)
 - [Example Output](#example-output)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Features
 
@@ -60,6 +59,6 @@ Player 1 shoots Player 0. Player 0's health: 75, armor: 25.```
 ```
 
 # Project Structure
-Pistols/: Contains the pistol classes and the factory for creating pistols.
-src/: Contains the main program and player class.
-CMakeLists.txt: CMake configuration file for the project.
+- Pistols/: Contains the pistol classes and the factory for creating pistols.
+- src/: Contains the main program and player class.
+- CMakeLists.txt: CMake configuration file for the project.
