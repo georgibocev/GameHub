@@ -3,7 +3,7 @@ Explore the GameHub repository, a collection of diverse projects ranging from st
 
 ## 1. Starcraft:
 
-    - Simulates a simplified version of the Starcraft game where Terran and Protoss fleets engage in battle.
+- Simulates a simplified version of the Starcraft game where Terran and Protoss fleets engage in battle.
     - Implements the Factory Design Pattern for creating different types of airships.
     
 ## 2. Warcraft:
