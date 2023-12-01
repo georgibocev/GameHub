@@ -18,6 +18,14 @@ Explore the GameHub repository, a collection of diverse projects ranging from st
 - Implements an algorithm to find the longest sequence of adjacent identical colors in a matrix.
 - Provides both a C API and a Python version that uses the API.
 
+# Project Structure
+Each project has its own directory with the following structure:
+
+* src/: Contains the main program files and the implementation of the core functionality.
+* include/: Holds header files with declarations and definitions for the project.
+* lib/: Contains any additional libraries or dependencies.
+* CMakeLists.txt: Configuration file for building the project using CMake.
+
 # 1. CounterStrike Simulator
 
 This program simulates a simplified version of the Counter-Strike game where two players engage in a pistol round. Each player has a choice between two types of pistols: Glock and Desert Eagle. The players take turns shooting at each other until one of them runs out of health and armor.
