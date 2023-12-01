@@ -4,19 +4,19 @@ Explore the GameHub repository, a collection of diverse projects ranging from st
 ## 1. Starcraft:
 
 - Simulates a simplified version of the Starcraft game where Terran and Protoss fleets engage in battle.
-    - Implements the Factory Design Pattern for creating different types of airships.
+- Implements the Factory Design Pattern for creating different types of airships.
     
 ## 2. Warcraft:
-    - Implements a simulation where heroes with different abilities and spells engage in various actions.
-    - Demonstrates object-oriented programming concepts and usage of polymorphism.
+- Implements a simulation where heroes with different abilities and spells engage in various actions.
+- Demonstrates object-oriented programming concepts and usage of polymorphism.
 
 ## 3. CounterStrike:
-    - Simulates a simplified version of the Counter-Strike game where two players engage in a pistol round.
-    - Features a turn-based gameplay system with dynamic output.
+- Simulates a simplified version of the Counter-Strike game where two players engage in a pistol round.
+- Features a turn-based gameplay system with dynamic output.
 
 ## 4. RGBTask:
-    - Implements an algorithm to find the longest sequence of adjacent identical colors in a matrix.
-    - Provides both a C API and a Python version that uses the API.
+- Implements an algorithm to find the longest sequence of adjacent identical colors in a matrix.
+- Provides both a C API and a Python version that uses the API.
 
 # 1. CounterStrike Simulator
 
