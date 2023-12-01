@@ -103,7 +103,7 @@ R B G
 - **lib/**: Contains the C API implementation.
 - **CMakeLists.txt**: CMake configuration file for the project.
   
-## StarCraft 
+## StarCraft
 
 Dive into the StarCraft Simulator, a strategic game simulation that brings the intensity of intergalactic warfare to life. Command armies, conquer planets, and strategize your way to victory in this thrilling space adventure.
 
@@ -208,7 +208,7 @@ PROTOSS has won!
 - **src/**: Contains the main source files.
 - **CMakeLists.txt**: CMake configuration file for the project.
 
-## Warcraft 
+## Warcraft
 
 Dive into the Warcraft Simulator, a C++ project that brings fantasy worlds to life with heroes, spells, and epic battles.
 
@@ -276,7 +276,7 @@ DrawRanger casted Charm for 150 mana
 - **src/**: Contains the main source files.
 - **CMakeLists.txt**: CMake configuration file for the project.
 
-## CounterStrike 
+## CounterStrike
 Dive into the CounterStrike Simulator, a detailed simulation of a pistol round in the iconic Counter-Strike game. This project is designed to showcase various technical features of game simulation.
 
 ### Features
