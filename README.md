@@ -39,28 +39,27 @@ This program simulates a simplified version of the Counter-Strike game where two
 
 After compiling the program, run the executable from the build directory:
 
-```bash
-./CounterStrike```
+`./CounterStrike`
+
 Follow the on-screen instructions to input player details and choose pistols.
 
-Example Input
-arduino
-Copy code
+## Example Input
+```
 100 50     // Player One's health and armor
 80 30      // Player Two's health and armor
 0 25 12 50 // Player One buys Glock with damage 25, clip size 12, and 50 remaining ammo
 1 30 7 35  // Player Two buys Desert Eagle with damage 30, clip size 7, and 35 remaining ammo
-Example Output
-yaml
-Copy code
+```
+## Example Output
+```
 PlayerID 0 turn:
 Player 0 shoots Player 1. Player 1's health: 70, armor: 30.
 
 PlayerID 1 turn:
-Player 1 shoots Player 0. Player 0's health: 75, armor: 25.
+Player 1 shoots Player 0. Player 0's health: 75, armor: 25.```
+```
 
-...
-Project Structure
+# Project Structure
 Pistols/: Contains the pistol classes and the factory for creating pistols.
 src/: Contains the main program and player class.
 CMakeLists.txt: CMake configuration file for the project.
