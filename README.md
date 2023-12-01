@@ -40,7 +40,7 @@ This program simulates a simplified version of the Counter-Strike game where two
 After compiling the program, run the executable from the build directory:
 
 ```bash
-./CounterStrike
+./CounterStrike```
 Follow the on-screen instructions to input player details and choose pistols.
 
 Example Input
