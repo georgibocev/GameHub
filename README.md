@@ -3,7 +3,7 @@ Explore the GameHub repository, a collection of diverse projects ranging from st
 
 ## Table of Contents
 
-- [RGBTask](#rgbtas)
+- [RGBTask](#rgbtask)
   - [Features](#features)
   - [Prerequisites](#prerequisites)
   - [How to Compile](#how-to-compile)
